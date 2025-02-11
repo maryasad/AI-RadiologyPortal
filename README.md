@@ -115,28 +115,3 @@ JWT_SECRET=your_jwt_secret
 
 For queries, contact: []
 
-# Using the Web App in Iran – Key Considerations
-
-- ✅ Hosting & Infrastructure:
-
-Some cloud providers (like AWS, Google Cloud, and Azure) restrict services in Iran due to sanctions.
-Alternative solutions:
-Self-hosted server (VPS from an Iranian provider like ParsOnline, Afranet, or Hetzner in Germany).
-Iran-friendly cloud providers (e.g., Hetzner, OVH, or local hosting companies).
-- ✅ Domain & Accessibility:
-
-- .ir domains are Iran-specific and may help with local SEO, but they may be blocked internationally.
-VPN Considerations: Some foreign-hosted apps might require a VPN for Iranian users.
-- ✅ Payment Integration:
-
-International payment gateways (Stripe, PayPal, etc.) do not work in Iran.
-Local payment solutions: Use Zarinpal, Pay.ir, or other Shaparak-compliant gateways if needed.
-- ✅ DICOM Support & Internet Speed
-
-If DICOM files are large, ensure your Iranian hosting can handle high-speed transfers.
-Use compressed DICOM formats to reduce bandwidth usage.
-- ✅ Compliance & Regulations
-
-Ensure your data storage and privacy policies follow Iranian healthcare regulations (HIPAA-equivalent laws).
-
-
